@@ -1,0 +1,42 @@
+# Packages
+node_modules/
+package-lock.json
+.yarn/install-state.gz
+
+# Log files
+logs/*
+*.log
+npm-debug.log*
+
+# IDE
+.DS_Store
+.vscode
+.idea
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Docs
+docgen
+docs
+
+# Env
+# **/*.env
+# **/*.config.ts
+
+# Miscellaneous
+
+# Database
+
+# Build data
+dist/
+target/
+
+# Rust
+/target
+**/*.rs.bk
+
+# Web
+.next/

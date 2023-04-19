@@ -1,0 +1,212 @@
+{
+    "configuration": {
+        "prefix": {
+            "name_localizations": {
+                "ko": "접두사"
+            },
+            "description_localizations": {
+                "ko": "봇의 접두사 설정"
+            },
+            "options": [
+                {
+                    "name_localizations": {
+                        "ko": "접두사"
+                    },
+                    "description_localizations": {
+                        "ko": "봇에게 적용될 새로운 접두사"
+                    }
+                }
+            ]
+        }
+    },
+    "owner": {
+        "eval": {
+            "name_localizations": {
+                "ko": "디버그"
+            },
+            "description_localizations": {
+                "ko": "디버깅"
+            },
+            "options": [
+                {
+                    "name_localizations": {
+                        "ko": "코드"
+                    },
+                    "description_localizations": {
+                        "ko": "디버깅 할 코드"
+                    }
+                }
+            ]
+        }
+    },
+    "starboard": {
+        "starboard": {
+            "name_localizations": {
+                "ko": "스타보드"
+            },
+            "description_localizations": {
+                "ko": "서버의 스타보드 명령어"
+            },
+            "options": [
+                {
+                    "name_localizations": {
+                        "ko": "이모지제한"
+                    },
+                    "description_localizations": {
+                        "ko": "최소로 필요한 이모지 개수 설정"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "ko": "개수"
+                            },
+                            "description_localizations": {
+                                "ko": "이모지 개수 입력"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "ko": "잠금"
+                    },
+                    "description_localizations": {
+                        "ko": "스타보드 기능 잠금"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "ko": "잠금해제"
+                    },
+                    "description_localizations": {
+                        "ko": "스타보드 기능 잠금 해제"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "ko": "생성"
+                    },
+                    "description_localizations": {
+                        "ko": "새로운 스타보드 생성"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "ko": "채널"
+                            },
+                            "description_localizations": {
+                                "ko": "스타보드를 표시할 채널 설정"
+                            }
+                        },
+                        {
+                            "name_localizations": {
+                                "ko": "이모지"
+                            },
+                            "description_localizations": {
+                                "ko": "스타보드에 쓰일 이모지 설정"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "ko": "삭제"
+                      },        
+                      "description_localizations": {
+                        "ko": "스타보드 삭제"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "ko": "스탯"
+                    },
+                    "description_localizations": {
+                        "ko": "스타보드 스탯 보기"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "ko": "유저"
+                            },
+                            "description_localizations": {
+                                "ko": "특정 유저의 스탯 보기"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "ko": "랜덤"
+                    },
+                    "description_localizations": {
+                        "ko": "랜덤으로 스타보드 메세지 보기"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "ko": "보기"
+                    },
+                    "description_localizations": {
+                        "ko": "스타보드 메세지 확인"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "ko": "아이디"
+                            },
+                            "description_localizations": {
+                                "ko": "확인할 메세지 아이디"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "ko": "설정"
+                    },
+                    "description_localizations": {
+                        "ko": "스타보드 설정"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "ko": "채널"
+                            },
+                            "description_localizations": {
+                                "ko": "스타보드 채널 설정"
+                            },
+                            "options": [
+                                {
+                                    "name_localizations": {
+                                        "ko": "채널"
+                                    },
+                                    "description_localizations": {
+                                        "ko": "스타보드를 표시할 채널"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name_localizations": {
+                                "ko": "이모지"
+                            },
+                            "description_localizations": {
+                                "ko": "스타보드 이모지 설정"
+                            },
+                            "options": [
+                                {
+                                    "name_localizations": {
+                                        "ko": "이모지"
+                                    },
+                                    "description_localizations": {
+                                        "ko": "스타보드에 쓰일 이모지"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

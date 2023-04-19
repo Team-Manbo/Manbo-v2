@@ -1,0 +1,32 @@
+{
+  "name": "@manbo/core-api",
+  "version": "1.0.0",
+  "description": "A core api package for manbo",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc --project tsconfig.json"
+  },
+  "author": "Jam-Manbo <manboqt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.20.0",
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "ioredis": "^5.2.4",
+    "joi": "^17.7.0",
+    "manbo": "0.0.3-beta",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "superagent": "^8.0.3"
+  }
+}

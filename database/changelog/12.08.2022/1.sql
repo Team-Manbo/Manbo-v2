@@ -1,0 +1,3 @@
+ALTER TABLE starboard
+ADD COLUMN locked BOOLEAN,
+ADD COLUMN ids VARCHAR(45)[];

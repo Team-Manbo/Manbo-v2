@@ -1,0 +1,333 @@
+{
+    "configuration": {
+        "prefix": {
+            "name": "prefix",
+            "need_prefix": "Provide a prefix to change for a bot!",
+            "prefix_too_long": "Prefix cannot be longer than 10 characters!",
+            "changed_prefix": "Changed prefix to `{{prefix}}`"
+        },
+        "language": {
+            "info": {
+                "aliases": ["language", "lang"]
+            },
+            "cannot_interact": "Only the command executor can use this!",
+            "current_language": "Current language for the bot is `English` (\uD83C\uDDFA\uD83C\uDDF8)\nSelect button to change the language!\n\n> Buttons will disappear after a minute!",
+            "changed_language": "Changed language to `English` (\uD83C\uDDFA\uD83C\uDDF8)"
+        }
+    },
+    "developer": {
+        "blacklist": {
+            "indo": {
+                "aliases": ["blacklist", "bl"]
+            }
+        },
+        "unblacklist": {
+            "indo": {
+                "aliases": ["unblacklist", "unbl"]
+            }
+        },
+        "devstats": {
+            "info": {
+                "aliases": ["devstats", "dstats"]
+            }
+        },
+        "deployslash": {
+            "info": {
+                "aliases": ["deployslash", "deploy-slash", "d-slash"]
+            }
+        }
+    },
+    "economy": {
+        "coin": {
+            "invalid_user": "Invalid user!",
+            "not_registered_member": "You are not registered!\n> Use `{{prefix}}register` to register",
+            "not_registered_user": "This user is not registered!\n> Use `{{prefix}}register` to register",
+            "content": "current coin: `{{coin}}`\n> winrate: `{{percent}}`%"
+        },
+        "register": {
+            "alr_registered": "Already registered!",
+            "cooldown": "You cannot register for 30 minutes after signing out!",
+            "registered": "Registered! I have given you `100,000` coins to welcome!"
+        },
+        "signout": {
+            "alr_signouted": "You are not registered!",
+            "signouted": "Successfully signed out!"
+        }
+    },
+    "fun": {
+        "yearleft": {
+            "left": "**{{cy}}** is **{{percent}}%** complete."
+        }
+    },
+    "general": {
+        "ping": {
+            "fetching": "Fetching Information...",
+            "content": "Round Trip Time: `{{msg}}`ms\nShard Latency: `{{shard}}`ms\nREST Latency: `{{rest}}`ms"
+        },
+        "help": {
+            "no_suffix_description": "{{prefix}}help {{category}}",
+            "no_suffix_title": "Manbo's command list",
+            "no_suffix_footer": "{{prefix}}help [category]  •  {{prefix}}help [command]",
+            "selectmenu_placeholder": "Select a menu to see detailed commands",
+            "cannot_interact": "Only the command executor can use this!",
+            "category_description": "`{{prefix}}help {{command}},",
+            "category_footer": "{{prefix}}help [command]",
+            "selectmenu_placeholder_category": "Select a menu to see detailed commands",
+            "requirements": "<> : required  •  [] : optional",
+            "data_not_found": "Command/Category not found!"
+        },
+        "about": {
+            "info": {
+                "aliases": ["about", "botinfo", "botstats"]
+            },
+            "author_name": "Manbo's Information!",
+            "description": "Hey there, i'm **Manbo**!\nUse the command `{{prefix}}help` to get a detailed help!\nYou can also join our [support server]({{support}}) for more information!\nInvite me through [this link](https://discord.com/oauth2/authorize?client_id=846770591231246336&permissions=2059402607863&scope=bot%20applications.commands)!\n\n> Name: `{{name}}`\n> Version: `{{version}}`",
+            "bot_status_name": "Bot Status",
+            "bot_status_value": "> Total Guilds: {{guildCount}}\n> Total Members: {{memberCount}}\n> Shard ID: `#{{shardID}}` of total `{{total}}` (Cluster #{{clusterID}})",
+            "shard_status_name": "Cluster Status",
+            "shard_status_value": "> Total Guilds: {{guildCount}}\n> Total Members: {{memberCount}}\n> Total Channels: {{channelCount}}",
+            "last_restart": "Last Restart"
+        }
+    },
+    "image": {
+        "meme": {
+            "info": {
+                "aliases": ["meme", "memes"]
+            }
+        },
+        "neko": {
+            "title": "Neko ✪ ω ✪"
+        },
+        "pat": {
+            "title": "Patted ❤"
+        },
+        "highfive": {
+            "title": "Highfive!"
+        },
+        "hug": {
+            "no_target": "Provide a target to hug!",
+            "invalid_user": "Invalid user!",
+            "target_is_me": "Why are you trying to hug yourself? :sob:",
+            "target_is_bot": "Machines dont know how to hug bro!",
+            "description": "{{target}}, you have been hugged by {{author}}!"
+        },
+        "kiss": {
+            "no_target": "Provide a target to kiss!",
+            "invalid_user": "Invalid user!",
+            "target_is_me": "Why are you trying to kiss yourself? :sob:",
+            "target_is_bot": "Machines dont know how to kiss bro!",
+            "description": "{{target}}, you have been kissed by {{author}}!"
+        }
+    },
+    "information": {
+        "avatar": {
+            "info": {
+                "aliases": ["avatar", "pfp"]
+            },
+            "server_profile": "Server profile",
+            "user_profile": "User Profile",
+            "download": "Download Link",
+            "invalid_user": "This user does no exist!"
+        },
+        "emojis": {
+            "info": {
+                "aliases": ["emojis", "emotes"]
+            },
+            "no_emoji": "There is no emoji is this guild!",
+            "guild_name": "{{guild}}'s Emoji List",
+            "page": "Page {{page}} of {{length}}"
+        },
+        "permissions": {
+            "info": {
+                "aliases": ["perms", "permissions", "permission", "perm"]
+            },
+            "title": "{{user}}'s Permissions",
+            "guild": "Guild"
+        },
+        "roleinfo": {
+            "info": {
+                "aliases": ["roleinfo", "ri"]
+            },
+            "no_suffix": "Provide a role!",
+            "invalid_role": "Invalid role!",
+            "name": "〘Name〙 {{role_name}}",
+            "users": "〘Users〙 {{percent}}% [{{num}}/{{total}}]",
+            "daysOld": "〘Days Old〙 {{days}} days old",
+            "hexColor": "〘HexColor〙 {{color}}",
+            "mentionable": "〘Mentionable〙 {{value}}",
+            "hoistable": "〘Hoistable〙 {{value}}",
+            "more_members": " **and** `{{roles}}` **more members...**",
+            "created": "🔹Created Timestamp",
+            "mention_id": "🔹Mention | Id",
+            "members": "🔹Members",
+            "none": "None",
+            "desc": "**Role __{{name}}__**'s Information```js\n{{ctx}}```"
+        },
+        "serverinfo": {
+            "info": {
+                "aliases": ["serverinfo", "si"]
+            },
+            "verification_0": "None (❁´◡`❁)",
+            "verification_1": "Low o(*￣▽￣*)ブ",
+            "verification_2": "Medium ╰（‵□′）╯",
+            "verification_3": "High (╯°□°）╯︵  ┻━┻",
+            "verification_4": "Very High ┻━┻ミヽ(ಠ益ಠ)ノ彡┻━┻",
+            "members": "〘Members〙 {{total_users}} [{{total_bots}} bots]",
+            "channels": "〘Channels〙 Text: {{text_channels}} | Voice: {{voice_channels}}",
+            "daysOld": "〘Days Old〙 {{days_old}} days old",
+            "boosts": "〘Boosts〙{{boost}} boosts [Tier {{tier}}]",
+            "roles": "〘Roles〙 {{role_count}} roles",
+            "security": "〘Security〙 {{verification}}",
+            "more_roles": " **and** `{{roles}}` **more roles...**",
+            "footer": "Name: {{name}}  •  ID: {{id}}",
+            "owner": "🔹Owner",
+            "timestamp": "🔹Created Timestamp",
+            "role": "🔹Roles",
+            "none": "None",
+            "desc": "**Server __{{name}}__**'s Information```js\n{{ctx}}```"
+        }
+    },
+    "moderation": {
+        "purge": {
+            "info": {
+                "aliases": ["purge", "clear", "prune"]
+            },
+            "provide_number": "Provide a number to purge messages!",
+            "provide_valid_number": "Provide a valid number to purge messages!",
+            "over_250": "You cannot purge more than `250` user messages!",
+            "over_1000": "You cannot purge more than `1000` messages!",
+            "user": "user",
+            "bot": "bot",
+            "pin": "pin",
+            "userContent": "\n\n> Target User: `{{username}}#{{discriminator}}` (`{{id}}`)",
+            "oldMsgContent": "\n*(Cannot purge `{{oldMsg}}` message{{s}} due to discord limit)*",
+            "purged": "Purged {{purgedCount}} messages!{{oldMsgContent}}{{userContent}}"
+        },
+        "slowmode": {
+            "info": {
+                "aliases": ["slowmode", "slow"]
+            },
+            "no_suffix": "Provide a time to set slowmode!",
+            "slow_off": "Removed slowmode of this channel!",
+            "invliad_num": "Invalid Number!",
+            "num_out_of_range": "Time should be between 1second ~ 6hours",
+            "changed_slow": "Slowmode for this channel set to `{{slow}}`"
+        }
+    },
+    "music": {
+        "clearqueue": {
+            "info": {
+                "aliases": ["clearqueue", "cq"]
+            },
+            "success": "Successfully cleared the queue!"
+        },
+        "loop": {
+            "info": {
+                "aliases": ["loop", "repeat"]
+            },
+            "choose_mode": "Choose the mode below!\n> $t(off): do not loop track and queue\n> $t(music.loop.track): loop current track\n> $t(music.loop.queue): loop whole queue",
+            "track": "track",
+            "off": "off",
+            "queue": "queue",
+            "changed_mode": "Changed mode to `{{mode}}`",
+            "timed_out": "Timed out!\nUse the command again to change the mode."
+        },
+        "nowplaying": {
+            "info": {
+                "aliases": ["nowplaying", "np"]
+            },
+            "no_current": "There are no current track!",
+            "now_playing": "**Now Playing**\n{{title}}\n\n[{{bar}}] `{{pos}}/{{length}}`\n\n> [**Volume:** `{{vol}}/100`] • [**Requester:** {{req}}]"
+        },
+        "pause": {
+            "alr_paused": "The track has been already paused.",
+            "paused": "The track has successfully paused!"
+        },
+        "play": {
+            "info": {
+                "aliases": ["play", "p"]
+            },
+            "no_query": "Provide a query!",
+            "no_node_server": "Cannot connect to server!\nPlease report it on support server:\n{{support}}",
+            "no_result": "Result not found!",
+            "load_fail": "Failed to load a track!\nIf this keep happens, please contact support.",
+            "cannot_fetch_track": "Cannot fetch track!\nIf you think the URL should be supported, please contact support.",
+            "connecting_to_vc": "Connecting to voice channel...\nIf this keep happends, please contact support.",
+            "playlist_added": "Added playlist `{{name}}` to queue!",
+            "tracks": "tracks",
+            "track_added": "Added track `{{name}}` to queue!",
+            "select": "Select a track to play!",
+            "select_placeholder": "select a track to add in a queue",
+            "cmd_executor": "Only command execcutor can select this!",
+            "timed_out": "Timed out!\nUse the command again to add a track"
+        },
+        "playlist": {
+            "info": {
+                "aliases": ["playlist", "pl", "queue"]
+            },
+            "no_tracks_in_queue": "There are no tracks in queue!",
+            "current_playlist": "Current Playlist [{{num}} Tracks]",
+            "page": "Page {{page}}/{{total}}",
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "remove": {
+            "no_suffix": "Provide a index of track to remove!",
+            "suffix_nan": "Provide a valid index!",
+            "no_track_in_queue": "There are no tracks left in the queue",
+            "invalid_num": "Invalid track number",
+            "removed_track": "Successfully removed track `{{name}}`"
+        },
+        "resume": {
+            "alr_resumed": "It has already been resumed!",
+            "resumed": "Successfully resumed!"
+        },
+        "shuffle": {
+            "info": {
+                "aliases": ["shuffle", "mix"]
+            },
+            "shuffled": "Successfully shuffled!"
+        },
+        "skip": {
+            "info": {
+                "aliases": ["skip", "s"]
+            },
+            "skipped": "Successfully skipped!"
+        },
+        "stop": {
+            "stopped": "Successfully stopped!"
+        },
+        "volume": {
+            "info": {
+                "aliases": ["volume", "vol"]
+            },
+            "no_suffix": "Provide a volume to set!",
+            "suffix_nan": "Invalid number!",
+            "vol_range": "Volume should be between 1~200!\n> Default volume is set to 30.",
+            "vol_set": "Volume now set up `{{vol}}%`"
+        }
+    },
+    "owner": {
+        "debug": {
+            "info": {
+                "aliases": ["debug", "d"]
+            }
+        }
+    },
+    "utility": {
+        "remindme": {
+            "no_suffix": "Provide a time and context!",
+            "provide_valid_time": "Invalid time!\n> `25s`, `20m`, `15h`, `10d`, `2y`",
+            "minute": "That's less than a single minute dude! Get some patience duh <:agony:1028480763437514772>",
+            "3_years": "Do you really think you are gonna be here after that? :rofl:",
+            "content_limit": "You cannot save more than 1000 characters!",
+            "no_context": "Context not given."
+        },
+        "stealemoji": {
+            "no_emoji": "Provide an emoji!",
+            "default_emoji": "That is a default emoji!",
+            "not_an_emoji": "Provide a valid emoji!",
+            "uploaded_emoji": "> **I do not take responsibility using this emoji, use at your own risk**\nUploaded emoji:"
+        }
+    }
+}

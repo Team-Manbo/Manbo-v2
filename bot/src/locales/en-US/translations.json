@@ -1,0 +1,95 @@
+{
+    "ms": {
+        "second": ["s", "sec", "secs", "second", "seconds"],
+        "minute": ["m", "min", "mins", "minute", "minutes"],
+        "hour": ["h", "hr", "hrs", "hour", "hours"],
+        "day": ["d", "day", "days"],
+        "year": ["y", "yr", "yrs", "year", "years"]
+    },
+    "permissions": {
+        "createInstantInvite": "createInstantInvite",
+        "kickMembers": "kickMembers",
+        "banMembers": "banMembers",
+        "administrator": "administrator",
+        "manageChannels": "manageChannels",
+        "manageGuild": "manageGuild",
+        "addReactions": "addReactions",
+        "viewAuditLog": "viewAuditLog",
+        "voicePrioritySpeaker": "voicePrioritySpeaker",
+        "voiceStream": "voiceStream",
+        "viewChannel": "viewChannel",
+        "sendMessages": "sendMessages",
+        "sendTTSMessages": "sendTTSMessages",
+        "manageMessages": "manageMessages",
+        "embedLinks": "embedLinks",
+        "attachFiles": "attachFiles",
+        "readMessageHistory": "readMessageHistory",
+        "mentionEveryone": "mentionEveryone",
+        "useExternalEmojis": "useExternalEmojis",
+        "viewGuildInsights": "viewGuildInsights",
+        "voiceConnect": "voiceConnect",
+        "voiceSpeak": "voiceSpeak",
+        "voiceMuteMembers": "voiceMuteMembers",
+        "voiceDeafenMembers": "voiceDeafenMembers",
+        "voiceMoveMembers": "voiceMoveMembers",
+        "voiceUseVAD": "voiceUseVAD",
+        "changeNickname": "changeNickname",
+        "manageNicknames": "manageNicknames",
+        "manageRoles": "manageRoles",
+        "manageWebhooks": "manageWebhooks",
+        "manageEmojisAndStickers": "manageEmojisAndStickers",
+        "useApplicationCommands": "useApplicationCommands",
+        "voiceRequestToSpeak": "voiceRequestToSpeak",
+        "manageEvents": "manageEvents",
+        "manageThreads": "manageThreads",
+        "createPublicThreads": "createPublicThreads",
+        "createPrivateThreads": "createPrivateThreads",
+        "useExternalStickers": "useExternalStickers",
+        "sendMessagesInThreads": "sendMessagesInThreads",
+        "startEmbeddedActivities": "startEmbeddedActivities",
+        "moderateMembers": "moderateMembers"
+    },
+    "commandHandler": {
+        "need_embed_link_permission": "I need `$t(permissions.embedLinks)` permission to work properly!",
+        "developer_only_command": "Only developer can run this command!",
+        "cannot_use_this_command_in_dm": "You cannot use this command in a DM!",
+        "missing_user_perm": "You need to have {{perms}} permission{{s}}!",
+        "missing_bot_perm": "Grant me {{perms}} permission{{s}} to make this command work!",
+        "cannot_use_this_command_in_thread": "You cannot use this command in a thread!"
+    },
+    "slashCommandHandler": {
+        "need_send_messages_permission": "I need `(permissions.sendMessages)` permission to work properly!",
+        "need_embed_link_permission": "I need `(permissions.embedLinks)` permission to work properly!",
+        "no_textvoicechannel": "You cannot use slash command in a DM!",
+        "developer_only_command": "Only developer can run this command!",
+        "missing_user_perm": "You need to have {{perms}} permission{{s}}!",
+        "missing_bot_perm": "Grant me {{perms}} permission{{s}} to make this command work!"
+    },
+    "channel_type_map": {
+        "0": "Text Channel",
+        "1": "DM Channel",
+        "2": "Voice Channel",
+        "3": "Group DM",
+        "4": "Category Channel",
+        "5": "News Channel",
+        "6": "Store Channel",
+
+        "10": "News Thread Channel",
+        "11": "Public Thread Channel",
+        "12": "Private Thread Channel",
+        "13": "Stage Channel",
+        "14": "Server Directory",
+        "15": "Forum Channel"
+    },
+    "music": {
+        "no_dispatcher": "There is no player created!",
+        "no_vc": "You are not in a voice channel!",
+        "not_same_vc": "You need to be in a same voice channel as me!",
+        "now_playing": "Now playing `{{title}}` [`{{time}}`] [{{req}}]"
+    },
+    "automod": {
+        "phishing": {
+            "del_msg_error": "Error occurred while deleting the message!\n> Please check if my permissions are correct."
+        }
+    }
+}

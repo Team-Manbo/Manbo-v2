@@ -1,0 +1,213 @@
+{
+    "configuration": {
+      "prefix": {
+        "name_localizations": {
+          "en-US": "prefix"
+        },
+        "description_localizations": {
+          "en-US": "Change the prefix of a bot"
+        },
+        "options": [
+          {
+            "name_localizations": {
+              "en-US": "prefix"
+            },
+            "description_localizations": {
+              "en-US": "A new prefix for the bot"
+            }
+          }
+        ]
+      }
+    },
+    "owner": {
+        "eval": {
+            "name_localizations": {
+                "en-US":"eval"
+            },
+            "description_localizations": {
+                "en-US": "evaluation"
+            },
+            "options": [
+                {
+                    "name_localizations": {
+                        "en-US":"code"
+                    },
+                    "description_localizations": {
+                        "en-US": "code to eval"
+                    }
+                }
+            ]
+        }
+    },
+    "starboard": {
+        "starboard": {
+            "name_localizations": {
+                "en-US":"starboard"
+            },
+            "description_localizations": {
+                "en-US": "starboard command"
+            },
+            "options": [
+                {
+                    "name_localizations": {
+                        "en-US": "limit"
+                      },        
+                      "description_localizations": {
+                        "en-US": "set a minimum emoji count for startboard"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "en-US": "stars"
+                              },        
+                              "description_localizations": {
+                                "en-US": "minimum emoji count to set"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "lock"
+                      },        
+                      "description_localizations": {
+                        "en-US": "lock startboard to stop it work"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "unlock"
+                      },        
+                      "description_localizations": {
+                        "en-US": "unlock startboard to make it work"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "create"
+                      },        
+                      "description_localizations": {
+                        "en-US": "create starboard"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "en-US": "channel"
+                              },        
+                              "description_localizations": {
+                                "en-US": "channel to set starboard"
+                            }
+                        },
+                        {
+                            "name_localizations": {
+                                "en-US": "emoji"
+                              },        
+                              "description_localizations": {
+                                "en-US": "set emoji to work with startboard"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "delete"
+                      },        
+                      "description_localizations": {
+                        "en-US": "delete starboard"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "stats"
+                      },        
+                      "description_localizations": {
+                        "en-US": "stats of this server's starboard"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "en-US": "user"
+                              },        
+                              "description_localizations": {
+                                "en-US": "user to see starboard stat"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "random"
+                      },        
+                      "description_localizations": {
+                        "en-US": "show random starboard message"
+                    }
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "show"
+                      },        
+                      "description_localizations": {
+                        "en-US": "show starboard message"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "en-US": "message_id"
+                              },        
+                              "description_localizations": {
+                                "en-US": "message id to show its message"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name_localizations": {
+                        "en-US": "settings"
+                      },        
+                      "description_localizations": {
+                        "en-US": "starboard settings"
+                    },
+                    "options": [
+                        {
+                            "name_localizations": {
+                                "en-US": "channel"
+                              },        
+                              "description_localizations": {
+                                "en-US": "set a starboard channel"
+                            },
+                            "options": [
+                                {
+                                    "name_localizations": {
+                                        "en-US": "channel"
+                                      },        
+                                      "description_localizations": {
+                                        "en-US": "a channel to set starboard"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name_localizations": {
+                                "en-US": "emoji"
+                              },        
+                              "description_localizations": {
+                                "en-US": "set a starboard emoji"
+                            },
+                        "options": [
+                                {
+                                    "name_localizations": {
+                                        "en-US": "emoji"
+                                      },        
+                                      "description_localizations": {
+                                        "en-US": "emoji to work with starboard"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

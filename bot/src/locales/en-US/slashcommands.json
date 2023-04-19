@@ -1,0 +1,51 @@
+{
+    "starboard": {
+        "starboard": {
+            "create": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "alr_exists": "Starboard already exists!",
+                "invalid_emoji": "Invalid emoji!",
+                "added": "**Starboard created!**\n\n> Channel: {{channel}} | Emoji: {{emoji}}"
+            },
+            "limit": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "doenst_exist": "starboard doesnt exist!",
+                "set": "minimum emoji count set to {{num}}"
+            },
+            "lock": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "doenst_exist": "starboard doesnt exist!",
+                "locked": "starboard locked!"
+            },
+            "unlock": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "doenst_exist": "starboard doesnt exist!",
+                "unlocked": "starboard unlocked!"
+            },
+            "random": {
+                "doenst_exist": "starboard doesnt exist!"
+            },
+            "show": {
+                "doenst_exist": "starboard doesnt exist!",
+                "invalid_id": "Message ID is invalid!"
+            },
+            "delete": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "doenst_exist": "starboard doesnt exist!",
+                "deleted": "starboard deleted!"
+            },
+            "settings": {
+                "no_perm": "You need `Manage Guild` permission to use this command",
+                "doenst_exist": "starboard doesnt exist!",
+                "set_channel": "set channel to {{channel}}",
+                "invalid_emoji": "Invalid emoji!",
+                "set_emoji": "set emoji to {{emoji}}!"
+            },
+            "stats": {
+                "doenst_exist": "starboard doesnt exist!",
+                "no_data": "No enough data!",
+                "most_star_msg": "Most starred messages"
+            }
+        }
+    }
+}
